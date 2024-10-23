@@ -3,6 +3,7 @@ import { Star } from '../Star';
 import './style.css';
 
 export const Rating = () => {
+
   const [rating, setRating] = useState(0);
   
   return (
